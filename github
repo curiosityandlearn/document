@@ -1,0 +1,30 @@
+git --version
+git config --list
+git config --global user.name "your-name"
+git config --global user.name "your-email"
+
+
+
+git init
+git status
+git add .
+git commit -m"your-commit"
+git remote add origin https://github.com/username/document.git
+git push -u origin master
+
+git clone git@github.com:<Username>/<Project>.git
+
+#https url
+https://github.com/<Username>/<Project>.git
+
+#ssh url
+git@github.com:<Username>/<Project>.git
+
+#turn into ssh url from https 
+git remote set-url origin git@github.com:<Username>/<Project>.git
+
+#test connection over ssh
+ssh -T git@github.com
+
+#undo git add .
+git reset

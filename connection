@@ -1,0 +1,11 @@
+
+
+#open shadowsocks
+sslocal -c /etc/shadowsocks.json 
+#execute on behind
+nohup sslocal -c /etc/shadowsocks.json 1>sslocal.log 2>&1 & 
+#auto-execute when login the computer
+
+#Connect to DigitalOcean
+ssh danhai@107.170.243.177 -p 31000
+

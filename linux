@@ -1,0 +1,15 @@
+
+#show pid
+pidof firefox
+ps aux | grep sslocal 
+
+#show documents
+ls
+ls -a
+ls -al
+
+#generate public/private rsa key pair using email
+ssh-keygen -t rsa -C "curiosityandlearn@gmail.com"
+
+#fedora remove software
+yum remove software_name
