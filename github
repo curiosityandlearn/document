@@ -28,3 +28,6 @@ ssh -T git@github.com
 
 #undo git add .
 git reset
+
+#remove a file in add .
+git rm --cached <added_file_to_undo>
