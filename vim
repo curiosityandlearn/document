@@ -1,4 +1,7 @@
 
+#list the document tree
+tree -l <file>
+
 #set password
 :X
 
