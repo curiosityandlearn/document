@@ -12,4 +12,4 @@ tree -l <file>
 :shell,exit
 
 #key world autocomplete
-ctrl+n
+ctrl+n,ctrl+p
