@@ -7,3 +7,9 @@ tree -l <file>
 
 #write and quit,similar to :wq
 :x
+
+#change to shell,but not exit vim
+:shell,exit
+
+#key world autocomplete
+ctrl+n
