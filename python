@@ -1,0 +1,6 @@
+#help
+help()
+#local variable function
+locals()
+#global variable funciton
+globals()
