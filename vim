@@ -13,3 +13,7 @@ tree -l <file>
 
 #key world autocomplete
 ctrl+n,ctrl+p
+
+#execute python code in vim
+w !python
+
