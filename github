@@ -41,4 +41,3 @@ git checkout master
 git branch -d branch_name
 git push origin <branch>
 
-#test
