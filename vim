@@ -17,3 +17,5 @@ ctrl+n,ctrl+p
 #execute python code in vim
 w !python
 
+#write a read-only file
+w !sudo tee %
